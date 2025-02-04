@@ -1,0 +1,13 @@
+Java 11 introduced a No-Op Garbage Collector called Epsilon.
+ This GC promises the lowest GC overhead possible.
+ This handles memory allocation but does not have an actual memory reclamation mechanism.
+Once the available Java heap is exhausted, JVM shuts down.
+
+The main goals of Epsilon Garbage Collector are :
+
+Performance Testing
+VM interface testing
+Extremely short lived jobs
+Memory pressure testing
+Last drop latency improvements
+Last drop throughput improvements

@@ -1,0 +1,1 @@
+The two methods stop(Throwable obj) and destroy() have been removed from the JDK 11.

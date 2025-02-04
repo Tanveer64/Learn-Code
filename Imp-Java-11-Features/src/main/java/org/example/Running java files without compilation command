@@ -1,0 +1,12 @@
+Microsoft Windows [Version 10.0.22631.4751]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\Java-Dev-Env\Imp-Java-11-Features\Imp-Java-11-Features\src\main\java\org\example>java CollectionToArray.java
+Tanveer
+Ali
+Asad
+Array:Tanveer
+Array:Ali
+Array:Asad
+
+D:\Java-Dev-Env\Imp-Java-11-Features\Imp-Java-11-Features\src\main\java\org\example>
