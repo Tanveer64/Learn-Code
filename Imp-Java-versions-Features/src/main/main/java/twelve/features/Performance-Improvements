@@ -1,0 +1,17 @@
+Java 12 includes several performance improvements, enhancing the efficiency and scalability of Java applications.
+
+Default CDS Archives
+Java 12 improves the startup time and memory footprint of Java applications by introducing default Class Data Sharing (CDS) archives. These archives contain preprocessed class metadata, reducing the time and resources required to load classes at runtime.
+
+CDS Archives: Default CDS archives store metadata for common Java classes, allowing the JVM to load classes more efficiently and reduce memory usage.
+Startup Time: By using preprocessed metadata, default CDS archives improve the startup time of Java applications, especially those with large class hierarchies.
+Abortable Mixed Collections for G1
+Java 12 enhances the G1 garbage collector by introducing abortable mixed collections, which allow garbage collection to be interrupted and resumed based on application needs. This feature reduces pause times and improves the responsiveness of applications using G1.
+
+Mixed Collections: G1 performs mixed garbage collection cycles, reclaiming both young and old-generation objects. Abortable mixed collections allow these cycles to be paused and resumed, reducing the impact on application performance.
+Responsive GC: By allowing garbage collection to be interrupted, G1 can adapt to the application workload and provide more responsive garbage collection.
+Promptly Return Unused Committed Memory from G1
+Java 12 improves G1's ability to return unused committed memory to the operating system, reducing Java applications' memory footprint and improving resource utilization.
+
+Memory Efficiency: By promptly returning unused memory, G1 reduces the overall memory consumption of Java applications, improving performance on memory-constrained systems.
+Resource Utilization: This feature enhances resource utilization, allowing applications to use memory more efficiently and reduce memory waste.
